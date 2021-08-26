@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>form-3</title>
+    </head>
+
+    <body>
+        <form action="" method="post">
+            <fieldset>
+                <legend>ENTER PERSONAL DATA</legend>
+                <label>NAME</label> <input type="text" name="fname" placeholder="ENTER THE NAME"><br><br>
+                <label>PASSWORD</label> <input type="password" name=""><br><br>
+                <label>GENDER</label> <input type="radio" name="gender" id="male"><label for="male">male</label><input type="radio" name="gender" id="female"><label for="female">female</label><br><br>
+                <label>HOBBIES</label> <input type="checkbox" name="hobby" id="music"><label for="music">music</label><input type="checkbox" name="hobby" id="cricket"><label for="cricket">cricket</label><br><br>
+                <label>MESSAGE</label> <textarea placeholder="type here" cols="10" rows="15"></textarea><br><br>
+                <label>COUNTRY</label> <select multiple size="2">
+                                            <option>PAKISTAN</option>
+                                            <option>INDIA</option>
+                                            <option>CHINA</option>
+                                            <option>DUBAI</option>
+                                            <option>SAUDIA ARABIA</option>
+                                        </select><br><br>
+                <label>CARS</label> <select size="6" multiple>
+                                            <optgroup label="old cars"></optgroup>
+                                            <option>charade</option>
+                                            <option>cultus</option>
+                                            <option>fx</option>
+                                            <option>mehran</option>
+                                            <option>swift</option>
+                                            </optgroup>
+                                            <optgroup label="new"></optgroup>
+                                            <option>RXR</option>
+                                            <option>BMW</option>
+                                            <option>ACCORD</option>
+                                            <option>AUDI</option>
+                                            <option>HILUX</option>
+                                            </optgroup>
+                                        </select><br><br>
+                <label>CARS</label> <input list="cars"/>
+                                        <datalist id="cars">
+                                            <option>charade</option>
+                                            <option>mehran</option>
+                                            <option>hilux</option>
+                                            <option>bmw</option>
+                                            <option>cultus</option>
+                                            <option>audi</option>
+                                        </datalist><br><br>
+                <label>upload files</label> <input type="file" accept="vedio/*" name=""><br><br>
+                <input type="submit" value="save">
+                <input type="reset">
+                <input type="image" src="images\HUSNAIN 02.jpg" width="55px">
+            </fieldset>
+        </form>
+    </body>
+</html>
